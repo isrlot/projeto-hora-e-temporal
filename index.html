@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main>
+    <div id="relogio">
+
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+
+    </div>
+    
+    <main2>
+        <h1>PREVISÃO DO TEMPO</h1>
+        <div id="tempo">
+                <header>
+                  <input type="text" />
+                  <button><i class='bx bx-search'></i></button>
+                </header>
+        </div>
+    
+        <div class="content" style="display: none;">
+            <section>
+              <h2 id="place"></h2>
+              <span id="degrees"></span>
+              <br />
+              <span id="wind"></span>
+            </section>
+            <img src="" alt="Clima" />
+          </div>
+    </main2>
+</main>
+<script src="js/relogio.js"></script>
+<script src="js/tempo.js"></script>
+</body>
+</html>
